@@ -5,7 +5,7 @@
 	<html>
 		<head>
 			<meta charset="utf-8">
-			<title>Portail</title>
+			<title>SECUREAPP</title>
 			<link rel="stylesheet" href="css/bootstrap.min.css">
 			<link rel="stylesheet" href="css/style.css">
 			<link rel="icon" href="favicon.ico" type="images/x-icon">
