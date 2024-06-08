@@ -1,6 +1,4 @@
-
-<%
-%>
+<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 	<html>
 		<head>
@@ -27,18 +25,18 @@
 			                  <h4 class="mt-1 mb-5 pb-1">Bienvenue sur SecurApp</h4>
 			                </div>
 			
-			                <form>
+			                <form methode="Post">
 			                  <p>Merci de vous connecter a votre compte</p>
 			
 			                  <div data-mdb-input-init class="form-outline mb-4">
 			                    <input type="email" id="form2Example11" class="form-control"
 			                      placeholder="Identifiant" />
-			                    <label class="form-label" for="form2Example11"></label>
+			                    <label class="form-label" for="form2Example11" name="username" value="${account.username}"></label>
 			                  </div>
 			
 			                  <div data-mdb-input-init class="form-outline mb-4">
 			                    <input type="password" id="form2Example22" class="form-control" placeholder="Mot de passe"  />
-			                    <label class="form-label" for="form2Example22"></label>
+			                    <label class="form-label" for="form2Example22" name="password" value="${account.password}"></label>
 			                  </div>
 			
 			                  <div class="text-center pt-1 mb-2 pb-1">
