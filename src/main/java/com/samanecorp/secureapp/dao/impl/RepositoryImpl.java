@@ -1,4 +1,4 @@
-package com.samanecorp.secureapp.repository;
+package com.samanecorp.secureapp.dao.impl;
 
 import java.util.List;
 
@@ -9,6 +9,7 @@ import javax.persistence.criteria.Root;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import com.samanecorp.secureapp.dao.interfaces.Repository;
 import com.samanecorp.secureapp.hibernate.HibernateUtil;
 
 

@@ -1,4 +1,4 @@
-package com.samanecorp.secureapp.repository;
+package com.samanecorp.secureapp.dao.interfaces;
 
 import java.util.List;
 
